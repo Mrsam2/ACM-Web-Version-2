@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Workshops | St. Vincent Pallotti CE ACM Student Chapter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="assets/college-logo.png" alt="College Logo" class="college-logo">
+                <div class="college-info">
+                    <h1>St. Vincent Pallotti College of Engineering & Technology</h1>
+                    <h2>Department of Computer Engineering</h2>
+                </div>
+            </div>
+        </div>
+        <div class="chapter-name">
+            <h2>St. Vincent Pallotti CE ACM Student Chapter</h2>
+        </div>
+        <nav id="navbar">
+            <div class="container">
+                <div class="logo-small">SVPCET ACM</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About the Chapter</a></li>
+                    <li><a href="events.html" class="active">Past Workshops</a></li>
+                    <li><a href="join.html">Why Join Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Past Workshops & Highlights</h1>
+            </div>
+        </section>
+
+        <section class="past-events">
+            <div class="container">
+                <div class="event-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="workshop">Workshops</button>
+                    <button class="filter-btn" data-filter="seminar">Seminars</button>
+                    <button class="filter-btn" data-filter="competition">Competitions</button>
+                </div>
+
+                <div class="past-events-grid">
+                    <div class="past-event-card" data-category="workshop">
+                        <div class="event-image">
+                            <img src="assets/event1.jpg" alt="Python Workshop">
+                        </div>
+                        <div class="event-info">
+                            <h3>Python for Data Science</h3>
+                            <p class="event-date"><i class="fas fa-calendar-alt"></i> March 15, 2023</p>
+                            <p class="event-description">A comprehensive workshop on Python programming for data science applications. Students learned data manipulation, visualization, and basic machine learning concepts.</p>
+                            <div class="event-stats">
+                                <span><i class="fas fa-users"></i> 75 Participants</span>
+                                <span><i class="fas fa-certificate"></i> Certificates Issued</span>
+                            </div>
+                            <div class="event-gallery">
+                                <a href="#" class="btn-small">View Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="past-event-card" data-category="seminar">
+                        <div class="event-image">
+                            <img src="assets/event2.jpg" alt="Cloud Computing Seminar">
+                        </div>
+                        <div class="event-info">
+                            <h3>Cloud Computing: Present & Future</h3>
+                            <p class="event-date"><i class="fas fa-calendar-alt"></i> February 10, 2023</p>
+                            <p class="event-description">An industry expert from Microsoft delivered a seminar on cloud computing technologies, their current applications, and future trends.</p>
+                            <div class="event-stats">
+                                <span><i class="fas fa-users"></i> 120 Participants</span>
+                                <span><i class="fas fa-certificate"></i> Attendance Certificates</span>
+                            </div>
+                            <div class="event-gallery">
+                                <a href="#" class="btn-small">View Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="past-event-card" data-category="competition">
+                        <div class="event-image">
+                            <img src="assets/event3.jpg" alt="Hackathon">
+                        </div>
+                        <div class="event-info">
+                            <h3>24-Hour Hackathon</h3>
+                            <p class="event-date"><i class="fas fa-calendar-alt"></i> January 20-21, 2023</p>
+                            <p class="event-description">A 24-hour coding competition where teams developed innovative solutions for real-world problems. The event featured mentoring sessions and exciting prizes for winners.</p>
+                            <div class="event-stats">
+                                <span><i class="fas fa-users"></i> 20 Teams (80 Participants)</span>
+                                <span><i class="fas fa-trophy"></i> Prizes Worth ₹50,000</span>
+                            </div>
+                            <div class="event-gallery">
+                                <a href="#" class="btn-small">View Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="past-event-card" data-category="workshop">
+                        <div class="event-image">
+                            <img src="assets/event4.jpg" alt="Web Development Workshop">
+                        </div>
+                        <div class="event-info">
+                            <h3>Full Stack Web Development</h3>
+                            <p class="event-date"><i class="fas fa-calendar-alt"></i> November 5-7, 2022</p>
+                            <p class="event-description">A three-day workshop covering HTML, CSS, JavaScript, and Node.js. Participants built a complete web application by the end of the workshop.</p>
+                            <div class="event-stats">
+                                <span><i class="fas fa-users"></i> 60 Participants</span>
+                                <span><i class="fas fa-certificate"></i> Certificates Issued</span>
+                            </div>
+                            <div class="event-gallery">
+                                <a href="#" class="btn-small">View Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="past-event-card" data-category="seminar">
+                        <div class="event-image">
+                            <img src="assets/event5.jpg" alt="Cybersecurity Seminar">
+                        </div>
+                        <div class="event-info">
+                            <h3>Cybersecurity in the Digital Age</h3>
+                            <p class="event-date"><i class="fas fa-calendar-alt"></i> October 12, 2022</p>
+                            <p class="event-description">A seminar on modern cybersecurity threats and protection strategies, delivered by a security expert from a leading IT company.</p>
+                            <div class="event-stats">
+                                <span><i class="fas fa-users"></i> 90 Participants</span>
+                                <span><i class="fas fa-certificate"></i> Attendance Certificates</span>
+                            </div>
+                            <div class="event-gallery">
+                                <a href="#" class="btn-small">View Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="past-event-card" data-category="competition">
+                        <div class="event-image">
+                            <img src="assets/event6.jpg" alt="Coding Competition">
+                        </div>
+                        <div class="event-info">
+                            <h3>Code Sprint 2022</h3>
+                            <p class="event-date"><i class="fas fa-calendar-alt"></i> September 25, 2022</p>
+                            <p class="event-description">A competitive programming contest where participants solved algorithmic problems within a time limit. The event tested coding skills and problem-solving abilities.</p>
+                            <div class="event-stats">
+                                <span><i class="fas fa-users"></i> 50 Participants</span>
+                                <span><i class="fas fa-trophy"></i> Prizes for Top 3</span>
+                            </div>
+                            <div class="event-gallery">
+                                <a href="#" class="btn-small">View Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/acm-logo.png" alt="ACM Logo">
+                    <h3>St. Vincent Pallotti CE ACM Student Chapter</h3>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="join.html">Join Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> ce-acm@stvincentngp.edu.in</p>
+                    <p><i class="fas fa-map-marker-alt"></i> St. Vincent Pallotti College of Engineering & Technology, Nagpur</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 St. Vincent Pallotti CE ACM Student Chapter. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
